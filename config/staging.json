@@ -1,6 +1,6 @@
 {
   "apiToken": "aaabbbcccddd111222333444",
   "serviceUrls": {
-    "fountain": "https://monolith-self-serve-stag-1.herokuapp.com/api/v2",
+    "fountain": "https://monolith-self-serve-stag-1.herokuapp.com/api/v2"
   }
 }
