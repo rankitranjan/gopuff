@@ -5,8 +5,8 @@
   "main": "app.js",
   "scripts": {
     "start": "PORT=3000 NODE_ENV=development node $NODE_DEBUG_OPTION ./bin/www",
-    "start:staging": "PORT=3001 NODE_ENV=staging node $NODE_DEBUG_OPTION ./bin/www",
-    "start:prod": "PORT=3002 NODE_ENV=production node $NODE_DEBUG_OPTION ./bin/www",
+    "start:staging": "PORT=3000 NODE_ENV=staging node $NODE_DEBUG_OPTION ./bin/www",
+    "start:prod": "PORT=3000 NODE_ENV=production node $NODE_DEBUG_OPTION ./bin/www",
     "start:watch": "nodemon $NODE_DEBUG_OPTION ./bin/www"
   },
   "author": "rankit ranjan",
