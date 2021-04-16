@@ -1,0 +1,27 @@
+{
+  "name": "gopuff",
+  "version": "1.0.0",
+  "description": "gopuff microservices",
+  "main": "app.js",
+  "scripts": {
+    "start": "PORT=3000 NODE_ENV=development node $NODE_DEBUG_OPTION ./bin/www",
+    "start:staging": "PORT=3001 NODE_ENV=staging node $NODE_DEBUG_OPTION ./bin/www",
+    "start:prod": "PORT=3002 NODE_ENV=production node $NODE_DEBUG_OPTION ./bin/www",
+    "start:watch": "nodemon $NODE_DEBUG_OPTION ./bin/www"
+  },
+  "author": "rankit ranjan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-joi-validation": "^5.0.0",
+    "http": "0.0.1-security",
+    "http-errors": "^1.8.0",
+    "joi": "^17.4.0",
+    "lodash": "^4.17.21",
+    "nodemon": "^2.0.7",
+    "path": "^0.12.7",
+    "winston": "^3.3.3"
+  }
+}

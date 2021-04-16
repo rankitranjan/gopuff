@@ -1,0 +1,6 @@
+{
+  "apiToken": "aaabbbcccddd111222333444",
+  "serviceUrls": {
+    "fountain": "https://api.fountain.com/v2",
+  }
+}
