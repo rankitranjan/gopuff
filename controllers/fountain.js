@@ -42,7 +42,7 @@ const parseAddresses = async function() {
       const addresses = _.compact(_.uniq(_.map(response.funnels, 'address')));
       _.forEach(addresses, address => {
         var splittedArray = address.split(', ');
-        areas.push([splittedArray[splittedArray.length-2], splittedArray[splittedArray.length-1]].join(" "))
+        areas.push(splittedArray[splittedArray.length-2])
         states.push(splittedArray[splittedArray.length-3])
       });
       return { areas: _.compact(_.uniq(areas)), states: _.compact(_.uniq(states)) };
